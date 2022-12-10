@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <style type="text/css"> BODY{ font-family: sans-serif; } </style>
+    <title>Contractanos</title>
+</head>
+<body>
+    <header>
+        <!-- /*Parte superior*/ -->
+        <div class="header-main">            
+                <h1>Título principal</h1>      
+                <h2 id="sub-inicio">Subtitulo</h2>           
+                <a href="./carrito.html">
+                <button type="button" id="boton1">
+                    <img src="./imagenes/carrito.png"
+                    width="70px"
+                    height="70px"
+                    alt="carrito">                    
+                </button>
+            </a>
+        </div>
+        <!-- /*Barra de navegación*/ -->
+        <div class="main-page-header-nav">
+            <nav id="main-page-nav">
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./categorías.html">Categorías</a></li>
+                    <li><a href="./contactanos.html">Contáctanos</a></li>
+                </ul>
+                <input id="busqueda" type="search">
+            </nav>
+        </div>        
+    </header>
+<main>
+    <h2>Contáctanos</h2>
+
+    <form id="form2" action="/action_page.php">
+      <label for="fname" id="name">Nombre completo:</label><br>
+      <input type="text" id="fname" name="fname" value=""><br>
+      <label for="email">Correo electrónico:</label><br>
+      <input type="text" id="email" name="email" value=""><br><br>
+      <input type="text" id="comentario">
+      <br><br>
+      <br>
+      <input type="submit" id="enviar" value="Enviar" >
+    </form> 
+</main>
+</body>
+</html>

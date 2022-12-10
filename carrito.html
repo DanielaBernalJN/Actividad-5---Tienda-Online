@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Carrito</title>
+</head>
+<body>
+  <header>
+    <!-- /*Parte superior*/ -->
+    <div class="header-main">            
+            <h1>Título principal</h1>      
+            <h2 id="sub-inicio">Subtitulo</h2>           
+            <a href="./carrito.html">
+            <button type="button" id="boton1">
+                <img src="./imagenes/carrito.png"
+                width="70px"
+                height="70px"
+                alt="carrito">                    
+            </button>
+        </a>
+    </div>
+    <!-- /*Barra de navegación*/ -->
+    <div class="main-page-header-nav">
+        <nav id="main-page-nav">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./categorías.html">Categorías</a></li>
+                <li><a href="./contactanos.html">Contáctanos</a></li>
+            </ul>
+            <input id="busqueda" type="search">
+        </nav>
+    </div>        
+</header>
+<main>
+    <h2>Continua tu compra</h2>
+
+    <form id="form1" action="/action_page.php">
+        <aside id="a2">
+            <h2>Comentario</h2>
+                <input type="text" id="coment">
+        </aside>
+      <label for="cname">Nombre completo:</label><br>
+      <input type="text" id="cname" name="cname" value=""><br>
+      <label for="nid">Número de identificación:</label><br>
+      <input type="text" id="nid" name="nid" value=""><br>
+      <label for="email1">Correo electrónico:</label><br>
+      <input type="text" id="email1"l name="email1" value=""><br><br>
+      <label for="tel">Teléfono de contacto:</label><br>
+      <input type="text" id="tel" name="tel" value=""><br><br>
+      <label for="dir">Dirección de residencia:</label><br>
+      <input type="text" id="dir" name="dir" value=""><br><br>
+      <label for="mdpago" id="mdpago">Medio de pago:</label><br>
+      <select name="mdpago">
+
+        <option>Nequi</option>
+        
+        <option>Daviplata</option>
+        
+        <option>Efecty</option>
+        
+        </select>
+        <footer id="footer1">
+        <button type="button" id="volver" value="Volver" style="color: black;">
+            Enviar
+        </button>
+        <button type="button" id="volver" value="Enviar" style="color: black;">
+            Volver
+        </button>
+        <p style="color:#00A6F9 ;">fe</p>
+    </footer>
+    </form> 
+</main>
+</body>
+</html>
